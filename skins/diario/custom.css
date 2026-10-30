@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+/* =========================================================================
+   Hoja de estilo del sitio masacredeavellaneda.org — skin "diario"
+   Reconstruida literalmente desde la captura del Wayback Machine
+   (20090317012939), que conserva custom.css y las cinco hojas de /rsc/
+   que importaba: basic.css, img.css, blog_elements.css, forms.css,
+   comments.css. Aquí van unidas en un solo archivo, sin cambios de valor.
+   ========================================================================= */
+
+/* ----------------------------------------------------- rsc/basic.css --- */
+
+blockquote { border: 2px dotted rgb(204, 204, 204); background-color: rgb(238, 238, 238); margin: 1em 2em; padding: 0px 1ex; }
+
+acronym, abbr { border-bottom: 1px dotted rgb(0, 0, 0); cursor: help; }
+
+del { font-size: 67%; }
+
+ins { font-size: 67%; }
+
+code { font-size: 107%; }
+
+.nobr, .line { white-space: nowrap; }
+
+.center { text-align: center; }
+
+.right { text-align: right; }
+
+.clear { clear: both; }
+
+.small { font-size: 84%; }
+
+div.error { padding: 0px 1ex; margin: 1ex auto; border: 1px solid rgb(221, 153, 153); background: rgb(251, 242, 238); color: rgb(238, 0, 0); }
+
+div.error ul, div.error ol { margin-bottom: 0ex; }
+
+p.error, span.error { margin: 1ex; color: rgb(238, 0, 0); font-weight: bold; }
+
+/* ------------------------------------------------------- rsc/img.css --- */
+
+img { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; }
+
+img.top { vertical-align: top; border: 0px; }
+
+img.middle { vertical-align: middle; border: 0px; }
+
+img.leftmargin { float: left; border: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+
+img.rightmargin { float: right; border: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+
+img.flag { vertical-align: middle; border: 1px solid rgb(0, 0, 0); }
+
+/* --------------------------------------------- rsc/blog_elements.css --- */
+
+.bMore { text-align: center; }
+
+.bMore a { font-weight: bold; font-size: 110%; }
+
+.FigZone { text-align: center; margin: 8px; }
+
+.FigCent240 { width: 240px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); padding: 12px; margin: 0ex auto; border: 1px solid rgb(255, 255, 255); text-align: center; }
+
+.FigCent320 { width: 320px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); padding: 12px; margin: 0ex auto; border: 1px solid rgb(255, 255, 255); text-align: center; }
+
+.FigZone img { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; margin-bottom: 8px; }
+
+.FigZone a { color: rgb(255, 255, 255); text-decoration: none; }
+
+.FigZone a:link { color: rgb(255, 255, 255); }
+
+.FigZone a:visited { color: rgb(255, 255, 255); }
+
+.FigZone a:active { color: rgb(255, 255, 255); }
+
+a.permalink_right { float: right; border: 0px; }
+
+span.NonExistentWikiWord { border-bottom: 1px dotted rgb(204, 204, 204); }
+
+div.codeblock { background-color: rgb(238, 238, 238); border: 1px dotted rgb(170, 170, 170); margin: 1ex; padding: 1ex; width: 90%; overflow: auto; }
+
+div.codeblock pre { margin: 0px; }
+
+caption.bCalendarCaption { font-size: 105%; font-weight: bold; margin: auto; padding: 0.5ex 0px; white-space: nowrap; }
+
+table.bCalendarTable { margin: 0px auto 1em; font-size: 77%; border-collapse: separate; border-spacing: 0px; }
+
+tr.bCalendarRow { text-align: center; }
+
+th.bCalendarHeaderCell { font-size: 84%; width: 4ex; }
+
+td.bCalendarCell { width: 4ex; height: 3.5ex; }
+
+.bCalendarLinkPost { font-weight: bold; }
+
+td#prev, td#next { font-weight: bold; font-size: 105%; padding: 0.5ex; white-space: nowrap; }
+
+td#prev a, td#next a { padding: 0px 0.5ex; }
+
+td#prev { text-align: left; }
+
+td#next { text-align: right; }
+
+/* ----------------------------------------------------- rsc/forms.css --- */
+
+form { margin: 0px; padding: 0px; }
+
+form.inline { margin: 0px; padding: 0px; display: inline; }
+
+fieldset.input { margin: 0px; padding: 0px; border: 0px; }
+
+fieldset span.notes { font-size: 80%; color: rgb(153, 153, 153); }
+
+input.large, textarea.large { width: 97%; margin-left: 0px; margin-right: 0px; }
+
+label.radiooption { margin-right: 1em; }
+
+form.fform fieldset { border: 1px solid rgb(221, 221, 221); margin-bottom: 1ex; background-color: rgb(255, 255, 255); padding: 0.5ex 1ex; }
+
+form.fform fieldset fieldset { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; margin: 1ex; padding: 0px; }
+
+form.fform div.label { float: left; width: 24%; text-align: right; font-weight: bold; margin: 0px; padding-top: 0.5ex; }
+
+form.fform div.input { margin: 0px 0px 0px 25%; }
+
+form.fform fieldset.input { margin: 0px; }
+
+form.fform div.info { margin: 0px 0px 0px 25%; padding-top: 0.5ex; }
+
+form.bComment fieldset { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; margin: 2ex 0ex; padding: 0ex; }
+
+form.bComment fieldset label { font-weight: bold; }
+
+form.bComment fieldset div.label { float: left; width: 18%; text-align: right; padding-top: 0.5ex; font-weight: bold; }
+
+form.bComment fieldset div.input { margin: 0px 0px 0px 20%; }
+
+form.bComment fieldset.input { margin: 0px; }
+
+form.bComment fieldset div.info { margin: 0px 0px 0px 20%; padding-top: 0.5ex; }
+
+/* -------------------------------------------------- rsc/comments.css --- */
+
+div.bComment, form.bComment { margin: 1ex 2ex; padding: 0px 1ex; border: 1px solid rgb(103, 195, 215); }
+
+div.bCommentTitle { margin: 1ex 0px; font-weight: bold; }
+
+div.bCommentText { margin-top: 0px; margin-bottom: 0px; }
+
+div.bCommentSmallPrint { clear: both; font-family: Arial, Helvetica, sans-serif; font-size: 80%; margin: 1ex 0px; }
+
+/* ------------------------------------------ skins/diario/custom.css --- */
+
+body { background-color: rgb(243, 243, 243); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font: 84% Arial, Helvetica, sans-serif; }
+
+a { color: rgb(230, 99, 3); text-decoration: none; }
+
+a:visited { color: rgb(230, 99, 3); text-decoration: none; }
+
+a:hover { color: rgb(163, 201, 60); text-decoration: underline; }
+
+h2 { color: rgb(119, 136, 170); font-size: 180%; margin: 0px; }
+
+h3 { color: rgb(28, 78, 89); font-size: 120%; margin: 0px; }
+
+h4 { color: rgb(112, 112, 112); font-size: 90%; margin: 0px; padding: 0px; }
+
+h5 { color: rgb(112, 112, 112); font-size: 80%; margin: 0px; padding: 0px; }
+
+table.invisible { margin: 1ex; border-collapse: collapse; }
+
+table.invisible td { padding: 0ex 1ex; }
+
+td.right { text-align: right; }
+
+div#pageFooter { clear: both; background-color: rgb(255, 255, 255); width: 738px; margin: 0px auto; padding: 0px 0px 1ex; }
+
+p.baseline { border-top: 1px solid rgb(221, 221, 221); text-align: center; font-size: 74%; color: rgb(153, 153, 153); padding: 1ex; margin: 0px; }
+
+hr { height: 0px; border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(119, 136, 170) currentcolor currentcolor; border-image: none; }
+
+div#wrapper { background: url("img/bg_content.gif") 0px 0px repeat-y rgb(255, 255, 255); width: 740px; margin: 0px auto; padding: 0px; }
+
+div.pageHeader { padding: 0px; margin: 0px 1px 1ex; border-bottom: 1px solid rgb(0, 0, 0); text-align: center; background: rgb(230, 99, 3); }
+
+h1#pageTitle { color: rgb(255, 255, 255); font-size: 270%; font-weight: bold; margin: 0px; padding: 0px; }
+
+ul#bloglist { background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(0, 0, 0); margin: 0px 1px; list-style-type: none; padding: 0.5ex 0px; }
+
+ul#bloglist li { border-right: 1px solid rgb(0, 0, 0); display: inline; padding: 0.5ex 1em; }
+
+a.BlogButton, a.BlogButtonCurr { font-weight: bold; text-decoration: none; }
+
+a.BlogButton { color: rgb(230, 99, 3); }
+
+a.BlogButton:hover { text-decoration: underline; color: rgb(163, 201, 60); }
+
+a.BlogButtonCurr, a.BlogButtonCurr:visited { color: rgb(28, 78, 89); }
+
+a.BlogButtonCurr:hover { text-decoration: underline; color: rgb(163, 201, 60); }
+
+.pageSubTitle { color: rgb(255, 255, 255); letter-spacing: 0px; text-align: center; vertical-align: middle; border-width: 0px 0px 1px; border-style: none none solid; border-color: currentcolor currentcolor rgb(0, 0, 0); border-image: none; padding: 6px 6px 4px; font: bold 109% Arial, Helvetica, sans-serif; }
+
+div.stats { float: right; padding: 1px 1px 1px 0px; }
+
+h2 { margin: 1ex; border-bottom: 1px solid rgb(119, 136, 170); }
+
+.bPosts { float: left; width: 479px; overflow: hidden; }
+
+.bPost, .bPostpublished { clear: both; margin: 1ex 2.5ex; padding: 0px; border-bottom: 1px solid rgb(230, 99, 3); }
+
+.bSmallHead { font-size: 90%; color: rgb(153, 153, 153); margin: 2ex 0px 1ex; text-decoration: none; }
+
+.bTitle { color: rgb(28, 78, 89); margin: 1ex 0px; text-decoration: none; }
+
+.bText { margin-top: 0px; margin-bottom: 0px; color: rgb(0, 0, 0); }
+
+.bSmallPrint { clear: both; color: rgb(153, 153, 153); font-size: 80%; margin: 1ex 0px 2ex; }
+
+input.bComment, textarea.bComment { background-color: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); width: 97%; padding: 2px; margin: 0ex; }
+
+select.bComment { background-color: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 1px; margin: 0ex; }
+
+div.statbloc { float: left; width: 44%; margin: 0px 0px 2ex 1.5ex; border: 1px solid rgb(119, 136, 170); }
+
+div.statbloc h3 { margin-top: 0px; margin-left: 0px; margin-right: 0px; color: rgb(255, 255, 255); text-align: center; background: rgb(119, 136, 170); padding: 1ex; }
+
+input.submit, input.reset { background-color: rgb(205, 230, 235); color: rgb(28, 78, 89); border: 1px solid rgb(28, 78, 89); font-weight: bold; font-size: 80%; margin: 0px; padding: 0.5ex; }
+
+input.submit:hover { color: rgb(163, 201, 60); text-decoration: underline; }
+
+.bSideBar { width: 259px; float: right; overflow: hidden; margin: 0px; padding: 0px; }
+
+.bSideItem { margin: 1ex; padding: 1ex 2ex; border: 1px solid rgb(194, 194, 194); white-space: normal; background-color: rgb(243, 243, 243); }
+
+.bSideTit { margin: 1ex; padding: 1ex 2ex; border-bottom: 1px solid rgb(230, 99, 3); border-top: 1px solid rgb(230, 99, 3); }
+
+.bSidechi { font: bold 100% Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+.bSidechi2 { font: 11px / 14px Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif; color: rgb(105, 105, 105); }
+
+.bSidechi3 { font: 10px / 11px Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); }
+
+.bSidecho { font: 100% Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+.bFecha { font: bold 90% Trebuchet, "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+.bSideItem ul { margin-left: 8px; padding-left: 8px; margin-top: 8px; margin-bottom: 8px; list-style-type: square; }
+
+.bSideItem ul ul { margin-left: 8px; padding-left: 8px; margin-top: 0px; margin-bottom: 0px; }
+
+.bSideItem form { margin-top: 0px; margin-bottom: 0px; }
+
+.dimmed { color: rgb(170, 170, 170); font-size: 84%; }
+
+input.SearchField { background-color: rgb(238, 238, 238); color: rgb(28, 78, 89); border: 1px solid rgb(28, 78, 89); font-size: 80%; padding: 0.5ex; width: 60%; margin: 0px; }
+
+caption.bCalendarCaption { border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentcolor; border-image: none; background-color: rgb(238, 238, 238); }
+
+table.bCalendarTable { border: 1px solid rgb(204, 204, 204); border-collapse: separate; }
+
+table.bCalendarTable tfoot td { background-color: rgb(238, 238, 238); border-top: 1px solid rgb(204, 204, 204); }
+
+table.bCalendarTable tfoot a { text-decoration: none; }
+
+table.bCalendarTable tfoot a:hover { background-color: rgb(119, 136, 170); color: rgb(255, 255, 255); }
+
+th.bCalendarHeaderCell { color: rgb(170, 187, 204); }
+
+#bCalendarToday { background-color: rgb(187, 204, 238); }
+
+/* =========================================================================
+   Añadidos del archivo. No estaban en el original: sirven para señalar
+   lo que falta y para que el sitio funcione sin base de datos.
+   Se mantienen dentro de la paleta del skin.
+   ========================================================================= */
+
+/* Cabezal: mientras no esté img/top01.jpg, la banda naranja lleva el
+   título en texto, con las mismas medidas que la imagen original. */
+div.pageHeader a { display: block; }
+div.pageHeader img { display: block; margin: 0 auto; }
+div.pageHeader .repuesto { width: 738px; height: 111px; margin: 0 auto; position: relative; color: #fff; }
+div.pageHeader .repuesto b { position: absolute; left: 18px; bottom: 30px; font-size: 300%; letter-spacing: -1px; line-height: 1; }
+div.pageHeader .repuesto i { position: absolute; left: 22px; bottom: 14px; font-size: 105%; font-style: normal; }
+
+/* Marca de imagen ausente */
+.falta { display: inline-block; border: 1px dashed rgb(230, 99, 3); background-color: rgb(250, 244, 238); color: rgb(120, 120, 120); font-size: 85%; line-height: 1.35; padding: 6px 8px; margin: 0 10px 8px 0; max-width: 260px; vertical-align: top; }
+.falta b { display: block; color: rgb(28, 78, 89); font-weight: bold; }
+.falta span { word-break: break-all; font-family: monospace; font-size: 92%; color: rgb(153, 153, 153); }
+.falta.izq { float: left; }
+.falta.der { float: right; }
+.falta.ancho { display: block; max-width: none; margin-right: 0; }
+
+/* Nota de archivo: bloques de aviso propios de esta reconstrucción */
+.nota-archivo { margin: 1ex 2.5ex; padding: 1ex 1.5ex; border: 1px solid rgb(119, 136, 170); background-color: rgb(247, 249, 252); font-size: 92%; }
+.nota-archivo h4 { color: rgb(119, 136, 170); font-size: 100%; margin-bottom: 0.5ex; }
+.nota-archivo p { margin: 0.5ex 0; }
+
+/* Paginado y listados */
+p.center strong { font-weight: bold; }
+.paginado { margin: 1ex 2.5ex 3ex; text-align: center; }
+.paginado a, .paginado span { padding: 0 0.4em; }
+.paginado .act { font-weight: bold; color: rgb(28, 78, 89); }
+
+ul.indice { list-style-type: none; margin: 0 0 1ex; padding: 0; }
+ul.indice li { border-bottom: 1px dotted rgb(221, 221, 221); padding: 0.6ex 0; }
+ul.indice .f { color: rgb(153, 153, 153); font-size: 85%; }
+
+/* Buscador sin servidor */
+#resultados { margin: 1ex 2.5ex; }
+#resultados li { margin-bottom: 0.8ex; }
+
+/* Comentarios en modo archivo (sin formulario activo) */
+.bComment .firma { color: rgb(105, 105, 105); font-size: 90%; }
+
+/* El contenido viejo trae imágenes de ancho fijo; que no rompan la columna */
+.bSidecho img, .bText img, .bText1 img { max-width: 100%; height: auto; }
+.bSidecho table, .bText table { max-width: 100%; }
